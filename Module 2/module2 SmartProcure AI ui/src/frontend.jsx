@@ -17,7 +17,7 @@ function Userui() {
 
     try{
 
-      const res = await fetch("https://render.com/docs/node-version/generate-proposal",{
+      const res = await fetch("https://rayeva-intern-assessment-1.onrender.com/generate-proposal",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
